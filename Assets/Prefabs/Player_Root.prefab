@@ -265,7 +265,7 @@ MonoBehaviour:
   proneSpeed: 2
   stepSpeed: 3
   midairSpeed: 7
-  jumpForce: 28
+  jumpForce: 17
   minMoveMagnitude: 0.1
   drag: 0
   sprintKey: 304
