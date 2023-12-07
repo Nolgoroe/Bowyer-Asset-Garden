@@ -46,7 +46,7 @@ public class PlayerController : MonoBehaviour
 
     Vector3 _currentJumpForce;
 
-    float _originalHeight = 4.635122f;
+    float _originalHeight;
 
     [Header("Keys")]
     [SerializeField]
@@ -101,6 +101,7 @@ MoveType _currentMoveType;
     // Start is called before the first frame update
     void Awake()
     {
+        _originalHeight = cc.height;
         _currentMoveType = MoveType.Walk;
         _currentJumpForce = Vector3.zero;
         if (!cc)
