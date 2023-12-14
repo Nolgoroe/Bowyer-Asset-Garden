@@ -14,6 +14,7 @@ Material:
   m_ValidKeywords:
   - _ENABLE_FOG_ON_TRANSPARENT
   - _SURFACE_TYPE_TRANSPARENT
+  - _TRANSPARENT_WRITES_MOTION_VEC
   m_InvalidKeywords:
   - _ADD_PRECOMPUTED_VELOCITY
   - _BLENDMODE_ALPHA
@@ -21,7 +22,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3400
+  m_CustomRenderQueue: 3000
   stringTagMap:
     MotionVector: User
     RenderType: Transparent
@@ -95,34 +96,34 @@ Material:
     m_Ints: []
     m_Floats:
     - _AddPrecomputedVelocity: 1
-    - _Alpha: 1
-    - _AlphaCutoff: 0.5
+    - _Alpha: 0.95
+    - _AlphaCutoff: 0.074
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 10
-    - _AlphaSrcBlend: 0
+    - _AlphaSrcBlend: 1
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
     - _BlendMode: 0
     - _BumpScale: 1
     - _CullMode: 2
     - _CullModeForward: 2
-    - _Cutoff: 0.5
+    - _Cutoff: 0.074
     - _DetailNormalMapScale: 1
-    - _DisplacementTileAdjust: 0.4
+    - _DisplacementTileAdjust: 0.5
     - _DoubleSidedEnable: 0
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 10
     - _EdgeAlphaAmount: 1.25
-    - _EdgeFadeDistance: 1
-    - _EnableBlendModePreserveSpecularLighting: 1
+    - _EdgeFadeDistance: 0.831
+    - _EnableBlendModePreserveSpecularLighting: 0
     - _EnableFogOnTransparent: 1
     - _Float7: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _MainTexInfulence: 0.75
-    - _MainTile: 4
+    - _MainTile: 5
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -131,11 +132,11 @@ Material:
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
     - _RefractionStrength: 0.15
-    - _RenderQueueType: 5
+    - _RenderQueueType: 4
     - _RequireSplitLighting: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _Speed: 1.5
+    - _Speed: 1.7
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 0
@@ -163,19 +164,19 @@ Material:
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
     - _TransparentSortPriority: 0
-    - _TransparentWritingMotionVec: 0
+    - _TransparentWritingMotionVec: 1
     - _TransparentZWrite: 0
     - _UVSec: 0
     - _UseShadowThreshold: 0
-    - _VertexFadeAmount: 1
+    - _VertexFadeAmount: 1.7
     - _VisibilityDepth: 0.25
     - _WaterColorDepth: 0.5
-    - _WaveHeight: 2
+    - _WaveHeight: 1.5
     - _WaveSpeed: 4
     - _WaveTile: 1
-    - _ZTestDepthEqualForOpaque: 4
+    - _ZTestDepthEqualForOpaque: 2
     - _ZTestGBuffer: 4
-    - _ZTestTransparent: 4
+    - _ZTestTransparent: 2
     - _ZWrite: 0
     - __dirty: 0
     m_Colors:

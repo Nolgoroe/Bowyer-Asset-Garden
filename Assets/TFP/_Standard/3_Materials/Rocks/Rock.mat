@@ -14,6 +14,7 @@ Material:
   m_ValidKeywords:
   - _DETAIL_MAP
   - _DISABLE_SSR_TRANSPARENT
+  - _DOUBLESIDED_ON
   - _HEIGHTMAP
   - _MASKMAP
   - _NORMALMAP
@@ -21,7 +22,7 @@ Material:
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 1
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: 2225
   stringTagMap: {}
   disabledShaderPasses:
@@ -208,8 +209,8 @@ Material:
     - _BumpScale: 0.5
     - _CoatMask: 0
     - _Cull: 2
-    - _CullMode: 2
-    - _CullModeForward: 2
+    - _CullMode: 0
+    - _CullModeForward: 0
     - _CullShadowPass: 3
     - _Cutoff: 0.5
     - _DepthOffsetEnable: 0
@@ -242,7 +243,7 @@ Material:
     - _DistortionVectorBias: -1
     - _DistortionVectorScale: 2
     - _DoubleSided: 0
-    - _DoubleSidedEnable: 0
+    - _DoubleSidedEnable: 1
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 1
     - _DstBlend: 0

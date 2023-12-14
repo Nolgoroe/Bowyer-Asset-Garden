@@ -122,7 +122,7 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _MainTexInfulence: 0.75
-    - _MainTile: 2
+    - _MainTile: 8
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1

@@ -12,7 +12,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _DOUBLESIDED_ON
+  - _ALPHATEST_ON
   - _ENABLE_FOG_ON_TRANSPARENT
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords:
@@ -23,8 +23,8 @@ Material:
   - _EMISSION
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 1
-  m_CustomRenderQueue: 3400
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
   stringTagMap:
     MotionVector: User
     RenderType: Transparent
@@ -170,24 +170,24 @@ Material:
     m_Ints: []
     m_Floats:
     - _AddPrecomputedVelocity: 1
-    - _AlphaCutoff: 0.5
-    - _AlphaCutoffEnable: 0
+    - _AlphaCutoff: 0.519
+    - _AlphaCutoffEnable: 1
     - _AlphaDstBlend: 10
-    - _AlphaSrcBlend: 0
+    - _AlphaSrcBlend: 1
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
     - _BlendMode: 0
     - _BumpScale: 1
-    - _CullMode: 0
-    - _CullModeForward: 0
-    - _Cutoff: 0.5
+    - _CullMode: 2
+    - _CullModeForward: 2
+    - _Cutoff: 0.519
     - _DepthRefractionBlend: 1
     - _DetailNormalMapScale: 1
-    - _DoubleSidedEnable: 1
+    - _DoubleSidedEnable: 0
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 10
-    - _EdgeFadeDistance: 0.2
+    - _EdgeFadeDistance: 0.338
     - _EdgeLength: 15
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
@@ -201,7 +201,7 @@ Material:
     - _MainWaveHeight: 0
     - _Metallic: 1
     - _Mode: 2
-    - _NormalStrength: 1
+    - _NormalStrength: 1.04
     - _OcclusionStrength: 1
     - _OpaqueCullMode: 2
     - _Parallax: 0.02
@@ -210,7 +210,7 @@ Material:
     - _Refraction: 0.05
     - _RefractionAmount: 0
     - _RefractionStrength: 0.1
-    - _RenderQueueType: 5
+    - _RenderQueueType: 4
     - _RequireSplitLighting: 0
     - _SecondaryWaveHeight: 2
     - _ShoreBlend: 3
@@ -236,7 +236,7 @@ Material:
     - _SurfaceType: 1
     - _TessMax: 25
     - _TessMin: 10
-    - _TessValue: 15
+    - _TessValue: 8.8
     - _Tesselation: 1
     - _TesselationAmount: 0.75
     - _Tiling: 2
@@ -250,15 +250,15 @@ Material:
     - _UseFoam: 0
     - _UseShadowThreshold: 0
     - _VSpeed: -0.002
-    - _VisibilityDepth: 0.05
-    - _WaterColorDepth: 0.5
+    - _VisibilityDepth: 0.081
+    - _WaterColorDepth: 0.435
     - _WaveHeight: 0.25
     - _WaveHeightFoam: 0
     - _WaveSizeBalance: 0.5
-    - _WaveSpeed: 1.5
-    - _WaveTile: 3
+    - _WaveSpeed: 1.7
+    - _WaveTile: 2.99
     - _ZTestDepthEqualForOpaque: 4
-    - _ZTestGBuffer: 4
+    - _ZTestGBuffer: 3
     - _ZTestTransparent: 4
     - _ZWrite: 0
     - __dirty: 0
